@@ -18,14 +18,26 @@ After registering your application, you need to install this module in your Node
 
 
 ```
-npm install uberjs
+npm install uberapi
 ```
 
 
 ### Usage
 
  ```javascript
-  var uber = require("uberjs")
+  var uber = require("uberapi")
+  
+  var uber_client = new uber({
+
+    client_id: "",
+
+    client_secret: "",
+    server_token: "k8X9f_zmZqWsq9dUWvpP3YdeTeMQB054c5Ze04Ky"
+
+
+
+
+})
 
   uber.getproducts(37.7752315, -122.418075, function (res) {
    

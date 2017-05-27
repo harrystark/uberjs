@@ -1,0 +1,22 @@
+{
+  "name": "uberapi",
+  "version": "1.0.0",
+  "description": "nodejs UBER api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"dependencies" :{
+    
+    "request" : "*"
+    
+} ,   
+  "keywords": [
+    "uber",
+    "nodejs",
+    "REST",
+    "api"
+  ],
+  "author": "sjljrvis",
+  "license": "MIT"
+}

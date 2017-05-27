@@ -1,8 +1,6 @@
 var request = require('request')
 
-var config = require('./config.js');
 
-config.setconfig();
 
 var client_id ;
 var client_secret ; 

@@ -12,8 +12,6 @@ var access_token ;
  client_id = uber_obj.client_id ;
  client_secret = uber_obj.client_secret ;
  server_token  =  uber_obj.server_token ;
-
-    
     
 }
 module.exports = uber
